@@ -11,6 +11,7 @@ public class App extends UI {
     @Override
     protected void init(VaadinRequest request) {
         Component c = new Main();
+        String s = null;
         c.setSizeFull();
         setContent(c);
     }
